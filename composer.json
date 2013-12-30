@@ -29,6 +29,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "vendor-dir": ""
+        "vendor-dir": "./"
     }
 }
