@@ -43,7 +43,7 @@ Composer will install Nuked Klan and all its dependencies under the
 
 ### Download an Archive File
 
-To quickly test Symfony, you can also download this [archive][3], or this [one][32]
+To quickly test the CMS, you can also download this [archive][3], or this [one][32]
 of the Gamer Edition and unpack it somewhere under your web server root directory.
 
 
