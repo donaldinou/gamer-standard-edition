@@ -1,20 +1,36 @@
 {
     "name": "nuked-klan/gamer-standard-edition",
     "description": "CMS for Gamers",
+    "version": "1.7.9",
+    "type": "project",
+    "keywords": ["nuked", "klan", "gamer", "standard", "edition"],
     "license": "GPL-2.0+",
     "authors": [
         {
+            "name": "Nuked-Klan Team",
+            "homepage": "http://www.nuked-klan.org/"
+        },
+        {
             "name": "Adrien Loyant",
-            "email": "adrien.loyant@te-laval.fr"
+            "email": "donald_duck@team-df.org",
+            "role": "Package maintainer"
         }
     ],
+    "require": {
+        "php": ">=5.3.3",
+        "nuked-klan/gamer-core": "dev-master"
+    },
+    "suggest": {
+        "ensepar/html2pdf": "1.0.*@dev"
+    },
     "autoload": {
         "psr-0": { "": "src/" }
     },
-    "require": {
-        "php": ">=5.3.3",
-        "ensepar/html2pdf": "1.0.*@dev"
-    },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.7.9"
+        }
+    }
 }
