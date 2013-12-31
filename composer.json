@@ -28,7 +28,14 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "config": {
-        "vendor-dir": ""
+    "scripts": {
+        "post-install-cmd": [
+            "git submodule init",
+            "git submodule update"
+        ],
+        "post-update-cmd": [
+            "git submodule init",
+            "git submodule update"
+        ]
     }
 }
